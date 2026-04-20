@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName [ "password" ]
-AuthUserFile [ /.htpassword ]
+AuthUserFile [ tomi-tomi/.htpasswd ]
 require valid-user
