@@ -1,3 +1,6 @@
-document.getElementById("menuBtn").addEventListener("click", function() {
-  document.getElementById("menu").classList.toggle("active");
+const menuBtn = document.getElementById("menuBtn");
+const menu = document.getElementById("menu");
+
+menuBtn.addEventListener("click", () => {
+  menu.classList.toggle("active");
 });
