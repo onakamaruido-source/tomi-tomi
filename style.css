@@ -1,0 +1,197 @@
+.header{
+display: flex;
+justify-content: space-between;
+padding:20px;
+background:#111;
+color:white;
+font-size:20px
+}
+
+nav a{
+    color:white;
+    margin:10px;
+    text-decoration: none;
+}
+
+.logo-name{
+    display: flex;
+    align-items: center;
+    height: 10;
+}
+
+.open{
+    text-align: center;
+    background-color:white;
+    padding:342px
+}
+
+.card{
+    background-color: rgba(255,255,255,0.08);
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    width: 1400px;
+    align-items: center;
+    color:white;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px;
+}
+
+.child {
+  /* text-align プロパティに center を設定 */
+  text-align: center;
+}
+.child span {
+  color: red;
+}
+
+body{
+    background-color: black;
+}
+
+.card a{
+    color:white;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+}
+
+.open-2{
+    text-align: center;
+    background: white;
+    padding: 342px;
+}
+
+.date{
+    padding-left :20px;
+}
+
+.news_list{
+    color :white;
+    display: flex;
+    justify-content: center;
+}
+
+.daimei{
+    color:black;
+    padding-left:32px;
+}
+
+.date_1{
+    color:black;
+    padding-left:32px;
+}
+
+.news_list a{
+    color:white;
+}
+
+.news h3{
+    color:black;
+    padding-left:56px;
+}
+
+.news {
+    background:linear-gradient(135deg,rgb(255, 255, 255));
+    padding-bottom: 504px;
+    padding-top:10px;
+}
+
+a{
+    color:white;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* 初期表示 */
+.pc-layout {
+  display: block;
+}
+
+.mobile-layout {
+  display: none;
+}
+
+/* PCデザイン */
+.pc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+.pc-header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* スマホデザイン */
+.mobile-header {
+  display: flex;
+  align-items: center;
+  background: black;
+  color: white;
+  padding: 15px;
+}
+
+.menu-btn {
+  margin-right: 15px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: #eee;
+}
+
+.mobile-menu.active {
+  display: flex;
+}
+
+.mobile-menu a {
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #ccc;
+}
+
+/* スマホ時 */
+@media screen and (max-width: 768px) {
+  .pc-layout {
+    display: none;
+  }
+
+  .mobile-layout {
+    display: block;
+  }
+}
+
+.open-movile{
+    background-color: white;
+    font-size:1.4em;
+    color:black;
+    text-align: center;
+    padding-top:300px;
+    padding-bottom:340px;
+    
+
+}
