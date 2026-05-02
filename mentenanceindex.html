@@ -17,7 +17,7 @@ async function sha256(text) {
 
 (async () => {
   const savedHash = "75573542bf3500c9e5983fc1ced797ba41730d79073fe81374e6bb466dae4729";
-  const input = prompt("パスワードを入力してください");
+  const input = prompt("現在メンテナンスを行っております。終了までお待ちください。");
   const inputHash = await sha256(input);
 
   if (inputHash === savedHash) {
